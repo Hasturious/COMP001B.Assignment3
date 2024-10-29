@@ -16,12 +16,15 @@ h1, h2, h3 {
 }
 
 aside {
-	float: right;
+	float: left;
 	width: 15%;
+	position: relative;
+	left: 40px;
 }
 
 footer {
-
+	position: fixed;
+	bottom: 5px;
 }
 
 header {
